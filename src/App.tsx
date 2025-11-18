@@ -1,11 +1,12 @@
 import React from 'react';
 import {Box, createTheme, CssBaseline, ThemeProvider} from '@mui/material';
 import Header from './components/Header';
-import Home from './pages/Home';
-import About from './pages/About';
-import Team from './pages/Team';
-import Events from './pages/Events';
-import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import Home from './sections/Home';
+import About from './sections/About';
+import Team from './sections/Team';
+import Events from './sections/Events';
+import Contact from './sections/Contact';
 
 const theme = createTheme({
     palette: {
@@ -102,6 +103,7 @@ function App() {
                     <Box id="contact">
                         <Contact/>
                     </Box>
+                    <Footer/>
                 </Box>
             </div>
         </ThemeProvider>

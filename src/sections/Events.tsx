@@ -3,7 +3,6 @@ import {Box, Container, Paper, Typography} from '@mui/material';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import GroupIcon from '@mui/icons-material/Group';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
-import AssignmentIcon from '@mui/icons-material/Assignment';
 
 const activities = [
     {
