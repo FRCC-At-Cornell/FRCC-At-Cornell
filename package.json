@@ -2,7 +2,7 @@
   "name": "frcc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Federal-Reserve-Club-at-Cornell.github.io/Website",
+  "homepage": "https://FRCC-At-Cornell.github.io/FRCC-At-Cornell",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",

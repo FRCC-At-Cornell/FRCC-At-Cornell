@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Container, Typography} from '@mui/material';
+import {Box, Button, Container, Link, Typography} from '@mui/material';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import GroupsIcon from '@mui/icons-material/Groups';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
@@ -52,6 +52,28 @@ const Home = () => {
                             Fostering economic discourse and developing future leaders in monetary policy
                         </Typography>
                     </Box>
+
+                    <Button
+                        component={Link}
+                        href="https://forms.gle/q5vKmPKBswAUffsS9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{
+                            color: "#fff",
+                            fontSize: "1.1rem",
+                            fontWeight: 600,
+                            padding: "12px 28px",
+                            textTransform: "none",
+                            borderRadius: "10px",
+                            background: "#00408E",
+                            "&:hover": {
+                                background: "#00204E",
+                            },
+                        }}
+                    >
+                        Applications Open for Spring 2026
+                    </Button>
+
 
                     <Box sx={{width: '100%', maxWidth: 1200, mx: 'auto'}}>
                         <Box
