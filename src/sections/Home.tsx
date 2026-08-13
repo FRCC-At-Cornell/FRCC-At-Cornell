@@ -53,28 +53,6 @@ const Home = () => {
                         </Typography>
                     </Box>
 
-                    <Button
-                        component={Link}
-                        href="https://forms.gle/q5vKmPKBswAUffsS9"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        sx={{
-                            color: "#fff",
-                            fontSize: "1.1rem",
-                            fontWeight: 600,
-                            padding: "12px 28px",
-                            textTransform: "none",
-                            borderRadius: "10px",
-                            background: "#00408E",
-                            "&:hover": {
-                                background: "#00204E",
-                            },
-                        }}
-                    >
-                        Applications Open for Spring 2026
-                    </Button>
-
-
                     <Box sx={{width: '100%', maxWidth: 1200, mx: 'auto'}}>
                         <Box
                             sx={{

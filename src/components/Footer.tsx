@@ -52,6 +52,7 @@ const Footer = () => {
                             >
                                 Equal Education & Employment
                             </Link>
+                            This organization is a registered student organization of Cornell University.
                         </Box>
                     </Box>
                 </Box>
