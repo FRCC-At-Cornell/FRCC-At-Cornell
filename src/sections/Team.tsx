@@ -3,24 +3,24 @@ import {Avatar, Box, Card, CardContent, Container, Typography} from '@mui/materi
 
 const teamMembers = [
     {
-        name: "Carson Wolber",
+        name: "Prajwal Reddy",
         role: "President",
     },
     {
-        name: "Prajwal Reddy",
+        name: "Orlando Mazzoleni",
         role: "Vice-President",
     },
     {
-        name: "James Lee",
+        name: "Sofia Fryxell",
         role: "Treasurer",
-    },
-    {
-        name: "Elizabeth Tian",
-        role: "Primary Funding Board Consultant",
     },
     {
         name: "Levi Chen",
         role: "DEI Chair",
+    },
+    {
+        name: "Elizabeth Tian",
+        role: "Primary Funding Board Consultant",
     },
     {
         name: "Ryan Chahrour",
